@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Student Form */
+form {
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Student Table */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f2ff;
+}
